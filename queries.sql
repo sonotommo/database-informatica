@@ -59,3 +59,7 @@ INNER JOIN (
 ) as r
 ON p.park_id = r.park_id
 WHERE average_mark > 4
+
+
+
+-- 
