@@ -1,7 +1,7 @@
 INSERT INTO parks
 VALUES(1, 'Giardino Pubblico Muzio de Tommasini', 30000, 45.654639, 13.784843, '07:00', '19:00')
 UNION 
-VALUES(2, 'Parco comunale di Villa Revoltella', 50000, 46.644441, 13.814994, '07:00', '20:00')
+VALUES(2, 'Parco comunale di Villa Revoltella', 50000, 45.644441, 13.814994, '07:00', '20:00')
 UNION 
 VALUES(3,'Giardino di Piazza della Libertà', 4600, 45.656741, 13.772594, '00:00', '24:00')
 UNION 
