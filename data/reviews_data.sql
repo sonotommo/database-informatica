@@ -56,3 +56,7 @@ UNION
 VALUES(28, 'Anonimo', 'Troppi cani senza guinzaglio, potrebbe essere pericoloso.', 3, 14, date('2023-04-25'))
 UNION 
 VALUES(29, 'Federica Costa', 'Poco spazio per il parcheggio, ho faticato a trovare posto.', 3, 3, date('2024-03-08'))
+UNION 
+VALUES(30, 'Marco Rossi', 'Il parco è davvero bello e ben curato. Ci sono giochi per bambini, aree pic-nic e un sacco di spazio per correre e giocare. Ci tornerò sicuramente!', 5, 1, date('2024-03-18'))
+UNION 
+VALUES(32, 'Luca Verdi', 'Il parco è migliorato molto rispetto a qualche anno fa. Ora è più pulito e sicuro, e ci sono più attività per i bambini. Sono soddisfatto!', 4, 3, date('2024-03-18'));

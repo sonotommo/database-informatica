@@ -143,6 +143,174 @@ VALUES(14, 'Parco di Villa Giulia', 235000, 45.66432300107299, 13.79138059159686
 UNION 
 VALUES(15, 'Parco della Rimembranza', 36650, 45.64810791493397, 13.774483152094529, '00:00', '24:00');
 
+INSERT INTO reviews (review_id, author, description, mark, park_id, created_at)
+VALUES(1, 'Marco Rossi', 'Esperienza meravigliosa! Il parco è ben curato e offre una vasta gamma di attività per tutta la famiglia.', 5, 1, date('2022-07-15'))
+UNION 
+VALUES(2, 'Giulia Bianchi', 'Nulla di speciale qui. Solo un prato con qualche albero. Ci sono parchi migliori in città.', 2, 2, date('2022-11-28'))
+UNION 
+VALUES(3, 'Luca Verdi', 'Il parco è sporco e poco sicuro, non adatto ai bambini. Sconsigliato.', 1, 3, date('2022-11-28'))
+UNION 
+VALUES(4, 'Martina Neri', 'Il parco è bellissimo in tutte le stagioni! Un luogo perfetto per rilassarsi e godersi la natura.', 5, 4, date('2023-09-05'))
+UNION 
+VALUES(5, 'Alessandro Bianco', 'Uno dei miei posti preferiti! Il parco è semplicemente meraviglioso, pieno di colori e vita.', 5, 5, date('2022-08-20'))
+UNION 
+VALUES(6, 'Marco Russo', 'Una passeggiata incantevole! Ho trascorso una giornata indimenticabile tra gli alberi e i laghi del parco.', 4, 6, date('2023-01-17'))
+UNION 
+VALUES(7, 'Anonimo', 'Mi aspettavo di meglio.', 3, 7, date('2024-02-29'))
+UNION 
+VALUES(8, 'Francesco Ricci', 'Atmosfera tranquilla, ideale per rilassarsi.', 4, 8, date('2023-05-03'))
+UNION 
+VALUES(9, 'Martina Esposito', 'Delusa dalla mancanza di pulizia.', 3, 9, date('2022-12-09'))
+UNION 
+VALUES(10, 'Giovanni Marino', 'Mi aspettavo più varietà di piante e alberi.', 3, 10, date('2024-01-22'))
+UNION 
+VALUES(11, 'Alessia Romano', 'Il parco ha bisogno di più panchine per sedersi.', 3, 5, date('2023-07-11'))
+UNION 
+VALUES(12, 'Andrea Colombo', 'Il parco ha una atmosfera magica al tramonto.', 5, 12, date('2022-06-14'))
+UNION 
+VALUES(13, 'Sara Leone', 'Ottimo per fare jogging la mattina presto.', 4, 13, date('2022-10-01'))
+UNION 
+VALUES(14, 'Anonimo', 'Troppi cani senza guinzaglio, potrebbe essere pericoloso.', 3, 14, date('2023-04-25'))
+UNION 
+VALUES(15, 'Federica Costa', 'Poco spazio per il parcheggio, ho faticato a trovare posto.', 3, 15, date('2024-03-08'))
+UNION 
+VALUES(16, 'Giulia Bianchi', 'Nulla di speciale qui. Solo un prato con qualche albero. Ci sono parchi migliori in città.', 2, 2, date('2022-11-28'))
+UNION 
+VALUES(17, 'Luca Verdi', 'Il parco è sporco e poco sicuro, non adatto ai bambini. Sconsigliato.', 1, 3, date('2022-11-28'))
+UNION 
+VALUES(18, 'Martina Neri', 'Il parco è bellissimo in tutte le stagioni! Un luogo perfetto per rilassarsi e godersi la natura.', 5, 2, date('2023-09-05'))
+UNION 
+VALUES(19, 'Alessandro Bianco', 'Uno dei miei posti preferiti! Il parco è semplicemente meraviglioso, pieno di colori e vita.', 5, 5, date('2022-08-20'))
+UNION 
+VALUES(20, 'Marco Russo', 'Una passeggiata incantevole! Ho trascorso una giornata indimenticabile tra gli alberi e i laghi del parco.', 4, 6, date('2023-01-17'))
+UNION 
+VALUES(21, 'Anonimo', 'Mi aspettavo di meglio.', 3, 7, date('2024-02-29'))
+UNION 
+VALUES(22, 'Francesco Ricci', 'Atmosfera tranquilla, ideale per rilassarsi.', 4, 9, date('2023-05-03'))
+UNION 
+VALUES(23, 'Martina Esposito', 'Delusa dalla mancanza di pulizia.', 3, 9, date('2022-12-09'))
+UNION 
+VALUES(24, 'Giovanni Marino', 'Mi aspettavo più varietà di piante e alberi.', 3, 10, date('2024-01-22'))
+UNION 
+VALUES(25, 'Alessia Romano', 'Il parco ha bisogno di più panchine per sedersi.', 3, 7, date('2023-07-11'))
+UNION 
+VALUES(26, 'Andrea Colombo', 'Il parco ha una atmosfera magica al tramonto.', 5, 10, date('2022-06-14'))
+UNION 
+VALUES(27, 'Sara Leone', 'Ottimo per fare jogging la mattina presto.', 4, 13, date('2022-10-01'))
+UNION 
+VALUES(28, 'Anonimo', 'Troppi cani senza guinzaglio, potrebbe essere pericoloso.', 3, 14, date('2023-04-25'))
+UNION 
+VALUES(29, 'Federica Costa', 'Poco spazio per il parcheggio, ho faticato a trovare posto.', 3, 3, date('2024-03-08'))
+UNION 
+VALUES(30, 'Marco Rossi', 'Il parco è davvero bello e ben curato. Ci sono giochi per bambini, aree pic-nic e un sacco di spazio per correre e giocare. Ci tornerò sicuramente!', 5, 1, date('2024-03-18'))
+UNION 
+VALUES(32, 'Luca Verdi', 'Il parco è migliorato molto rispetto a qualche anno fa. Ora è più pulito e sicuro, e ci sono più attività per i bambini. Sono soddisfatto!', 4, 3, date('2024-03-18'));
+
+INSERT INTO staff
+VALUES ('MRARSS80A01L424E', 'Mario','Rossi','gardener', 1)
+UNION
+VALUES ('PLAMCR80A08E098R', 'Paolo', 'Maccaroni', 'gardener', 2)
+UNION
+VALUES ('MRANNE90H48L424J', 'Maria', 'Neoni','gardener', 7)
+UNION
+VALUES ('GLILNZ65A57L483X', 'Giulia', 'Lorenzetti', 'gardener', 8)
+UNION
+VALUES ('VNCNRL60T28L424L', 'Vincenzo','Andreoli','gardener', 9)
+UNION
+VALUES ('LRNGMN97P10L424M', 'Lorenzo', 'Giacomini', 'dustman', 3)
+UNION
+VALUES ('LRASNT88E49E098R', 'Laura', 'Simonetti', 'dustman', 6)
+UNION
+VALUES ('MRCGRR80A14F356D', 'Marco', 'Gherardi', 'dustman', 14)
+UNION
+VALUES ('GLNMCN91R01L424H', 'Giuliano', 'Marconi', 'dustman', 15)
+UNION
+VALUES ('MRLRSN70D70L424O', 'Mirella', 'Ursini', 'keeper', 1)
+UNION
+VALUES ('JCPHTS83P02F356X', 'Jacopo', 'Hortis', 'keeper', 5)
+UNION
+VALUES ('RCHRLT94R26L424S', 'Richard', 'Revoltella', 'keeper', 11)
+UNION
+VALUES ('FRBMLN92B42L483Q', 'Francesca', 'Milani', 'keeper', 7)
+UNION
+VALUES ('GRGTRN89R12L424E', 'Giorgio', 'Torino', 'keeper', 1)
+UNION
+VALUES ('SBLTMS81P62L424H', 'Isabella', 'Tommasi', 'keeper', 15)
+UNION
+VALUES ('MPLRST85S23L424K', 'Matteo', 'Palermini', 'gardener', 1)
+UNION
+VALUES ('FLRDNN78T40L424V', 'Federico', 'Allori', 'gardener', 2)
+UNION
+VALUES ('CCNAND92E49L424G', 'Cristina', 'Cantone', 'gardener', 3)
+UNION
+VALUES ('GGRGNN88C20L424R', 'Greta', 'Grande', 'gardener', 4)
+UNION
+VALUES ('FLRNDD80A01L424E', 'Filomena', 'La Rosa', 'gardener', 5)
+UNION
+VALUES ('GGLRSS77H31L424M', 'Giuseppe', 'Galli', 'keeper', 6)
+UNION
+VALUES ('SLLNPL83P22L424T', 'Silvia', 'Sellini', 'keeper', 7)
+UNION
+VALUES ('RRTTDC89L07L424R', 'Roberto', 'Rotondo', 'keeper', 8)
+UNION
+VALUES ('FFRZND84A02L424P', 'Federica', 'Ferruzzi', 'keeper', 9)
+UNION
+VALUES ('MNNLRA82L41L424G', 'Manuela', 'Monti', 'keeper', 10)
+UNION
+VALUES ('MRRDNL75R05L424R', 'Mirko', 'Morrone', 'dustman', 11)
+UNION
+VALUES ('SBBBNL71A42L424B', 'Sabrina', 'Bianchi', 'dustman', 12)
+UNION
+VALUES ('LBBNCD66T08L424A', 'Luca', 'Barbieri', 'dustman', 13)
+UNION
+VALUES ('VLLRZD59R18L424R', 'Valentina', 'Villa', 'dustman', 14)
+UNION
+VALUES ('FFRNND57B25L424G', 'Federico', 'Ferrari', 'dustman', 15)
+UNION
+VALUES ('LGGNDR63T05L424I', 'Luigi', 'Loggia', 'dustman', 12)
+UNION
+VALUES ('GGLRLN51L27L424T', 'Giovanni', 'Gagliardi', 'dustman', 7)
+UNION
+VALUES ('SMMRRR87B02L424G', 'Samuele', 'Simoni', 'dustman', 8)
+UNION
+VALUES ('LRRLLN79S40L424L', 'Laura', 'Laurenti', 'dustman', 9)
+UNION
+VALUES ('GGLRSS63C28L424E', 'Gianluca', 'Gallo', 'dustman', 2);
+
+-- true = 1
+-- false = 0
+
+INSERT INTO informations
+VALUES(1, 1,1,0,1,0,0,1,0,1)
+UNION 
+VALUES(2,1,0,0,1,1,1,1,0,1)
+UNION 
+VALUES(3,1,1,1,1,1,1,0,0,1)
+UNION 
+VALUES(4,1,0,1,1,1,1,0,1,0)
+UNION 
+VALUES(5,1,1,0,1,1,1,0,1,0)
+UNION 
+VALUES(6,0,1,0,1,1,1,1,0,0)
+UNION 
+VALUES(7,1,0,1,1,1,1,0,0,0)
+UNION 
+VALUES(8,1,1,0,0,0,1,1,1,1)
+UNION 
+VALUES(9,0,0,1,1,1,1,NULL,1,1)
+UNION 
+VALUES(10,1,1,1,1,1,1,0,NULL,1)
+UNION 
+VALUES(11,1,1,0,1,1,NULL,1,0,1)
+UNION 
+VALUES(12,1,1,1,0,1,1,1,1,1)
+UNION 
+VALUES(13,0,0,1,0,0,0,0,0,0)
+UNION
+VALUES(14, NULL, NULL, 1, NULL, NULL, 1, NULL, 0, NULL)
+UNION 
+VALUES(15,1,0,1,0,1,1,1,0,1);
+
 INSERT INTO crowded
 VALUES ('monday', 'uncrowded', 'uncrowded', 'uncrowded', 1)
 UNION
@@ -384,130 +552,6 @@ UNION
 VALUES (14, 'Via dei Baiardi' , '35', 34134, 'Trieste', 'TS')
 UNION 
 VALUES (15, 'Viale della Rimembranza', NULL, 34131, 'Trieste', 'TS');
-
--- true = 1
--- false = 0
-
-INSERT INTO informations
-VALUES(1, 1,1,0,1,0,0,1,0,1)
-UNION 
-VALUES(2,1,0,0,1,1,1,1,0,1)
-UNION 
-VALUES(3,1,1,1,1,1,1,0,0,1)
-UNION 
-VALUES(4,1,0,1,1,1,1,0,1,0)
-UNION 
-VALUES(5,1,1,0,1,1,1,0,1,0)
-UNION 
-VALUES(6,0,1,0,1,1,1,1,0,0)
-UNION 
-VALUES(7,1,0,1,1,1,1,0,0,0)
-UNION 
-VALUES(8,1,1,0,0,0,1,1,1,1)
-UNION 
-VALUES(9,0,0,1,1,1,1,NULL,1,1)
-UNION 
-VALUES(10,1,1,1,1,1,1,0,NULL,1)
-UNION 
-VALUES(11,1,1,0,1,1,NULL,1,0,1)
-UNION 
-VALUES(12,1,1,1,0,1,1,1,1,1)
-UNION 
-VALUES(13,0,0,1,0,0,0,0,0,0)
-UNION
-VALUES(14, NULL, NULL, 1, NULL, NULL, 1, NULL, 0, NULL)
-UNION 
-VALUES(15,1,0,1,0,1,1,1,0,1);
-
-INSERT INTO reviews (review_id, author, description, mark, park_id, created_at)
-VALUES(1, 'Marco Rossi', 'Esperienza meravigliosa! Il parco è ben curato e offre una vasta gamma di attività per tutta la famiglia.', 5, 1, date('2022-07-15'))
-UNION 
-VALUES(2, 'Giulia Bianchi', 'Nulla di speciale qui. Solo un prato con qualche albero. Ci sono parchi migliori in città.', 2, 2, date('2022-11-28'))
-UNION 
-VALUES(3, 'Luca Verdi', 'Il parco è sporco e poco sicuro, non adatto ai bambini. Sconsigliato.', 1, 3, date('2022-11-28'))
-UNION 
-VALUES(4, 'Martina Neri', 'Il parco è bellissimo in tutte le stagioni! Un luogo perfetto per rilassarsi e godersi la natura.', 5, 4, date('2023-09-05'))
-UNION 
-VALUES(5, 'Alessandro Bianco', 'Uno dei miei posti preferiti! Il parco è semplicemente meraviglioso, pieno di colori e vita.', 5, 5, date('2022-08-20'))
-UNION 
-VALUES(6, 'Marco Russo', 'Una passeggiata incantevole! Ho trascorso una giornata indimenticabile tra gli alberi e i laghi del parco.', 4, 6, date('2023-01-17'))
-UNION 
-VALUES(7, 'Anonimo', 'Mi aspettavo di meglio.', 3, 7, date('2024-02-29'))
-UNION 
-VALUES(8, 'Francesco Ricci', 'Atmosfera tranquilla, ideale per rilassarsi.', 4, 8, date('2023-05-03'))
-UNION 
-VALUES(9, 'Martina Esposito', 'Delusa dalla mancanza di pulizia.', 3, 9, date('2022-12-09'))
-UNION 
-VALUES(10, 'Giovanni Marino', 'Mi aspettavo più varietà di piante e alberi.', 3, 10, date('2024-01-22'))
-UNION 
-VALUES(11, 'Alessia Romano', 'Il parco ha bisogno di più panchine per sedersi.', 3, 5, date('2023-07-11'))
-UNION 
-VALUES(12, 'Andrea Colombo', 'Il parco ha una atmosfera magica al tramonto.', 5, 12, date('2022-06-14'))
-UNION 
-VALUES(13, 'Sara Leone', 'Ottimo per fare jogging la mattina presto.', 4, 13, date('2022-10-01'))
-UNION 
-VALUES(14, 'Anonimo', 'Troppi cani senza guinzaglio, potrebbe essere pericoloso.', 3, 14, date('2023-04-25'))
-UNION 
-VALUES(15, 'Federica Costa', 'Poco spazio per il parcheggio, ho faticato a trovare posto.', 3, 15, date('2024-03-08'))
-UNION 
-VALUES(16, 'Giulia Bianchi', 'Nulla di speciale qui. Solo un prato con qualche albero. Ci sono parchi migliori in città.', 2, 2, date('2022-11-28'))
-UNION 
-VALUES(17, 'Luca Verdi', 'Il parco è sporco e poco sicuro, non adatto ai bambini. Sconsigliato.', 1, 3, date('2022-11-28'))
-UNION 
-VALUES(18, 'Martina Neri', 'Il parco è bellissimo in tutte le stagioni! Un luogo perfetto per rilassarsi e godersi la natura.', 5, 2, date('2023-09-05'))
-UNION 
-VALUES(19, 'Alessandro Bianco', 'Uno dei miei posti preferiti! Il parco è semplicemente meraviglioso, pieno di colori e vita.', 5, 5, date('2022-08-20'))
-UNION 
-VALUES(20, 'Marco Russo', 'Una passeggiata incantevole! Ho trascorso una giornata indimenticabile tra gli alberi e i laghi del parco.', 4, 6, date('2023-01-17'))
-UNION 
-VALUES(21, 'Anonimo', 'Mi aspettavo di meglio.', 3, 7, date('2024-02-29'))
-UNION 
-VALUES(22, 'Francesco Ricci', 'Atmosfera tranquilla, ideale per rilassarsi.', 4, 9, date('2023-05-03'))
-UNION 
-VALUES(23, 'Martina Esposito', 'Delusa dalla mancanza di pulizia.', 3, 9, date('2022-12-09'))
-UNION 
-VALUES(24, 'Giovanni Marino', 'Mi aspettavo più varietà di piante e alberi.', 3, 10, date('2024-01-22'))
-UNION 
-VALUES(25, 'Alessia Romano', 'Il parco ha bisogno di più panchine per sedersi.', 3, 7, date('2023-07-11'))
-UNION 
-VALUES(26, 'Andrea Colombo', 'Il parco ha una atmosfera magica al tramonto.', 5, 10, date('2022-06-14'))
-UNION 
-VALUES(27, 'Sara Leone', 'Ottimo per fare jogging la mattina presto.', 4, 13, date('2022-10-01'))
-UNION 
-VALUES(28, 'Anonimo', 'Troppi cani senza guinzaglio, potrebbe essere pericoloso.', 3, 14, date('2023-04-25'))
-UNION 
-VALUES(29, 'Federica Costa', 'Poco spazio per il parcheggio, ho faticato a trovare posto.', 3, 3, date('2024-03-08'));
-
-INSERT INTO staff
-VALUES ('MRARSS80A01L424E', 'Mario','Rossi','gardener', 1)
-UNION
-VALUES ('PLAMCR80A08E098R', 'Paolo', 'Maccaroni', 'gardener', 2 )
-UNION
-VALUES ('MRANNE90H48L424J', 'Maria', 'Neoni','gardener', 7)
-UNION
-VALUES ('GLILNZ65A57L483X', 'Giulia', 'Lorenzetti', 'gardener', 8)
-UNION
-VALUES ('VNCNRL60T28L424L', 'Vincenzo','Andreoli','gardener', 9)
-UNION
-VALUES ('LRNGMN97P10L424M', 'Lorenzo', 'Giacomini', 'dustman', 3 )
-UNION
-VALUES ('LRASNT88E49E098R', 'Laura', 'Simonetti', 'dustman', 6)
-UNION
-VALUES ('MRCGRR80A14F356D', 'Marco', 'Gherardi', 'dustman', 14)
-UNION
-VALUES ('GLNMCN91R01L424H', 'Giuliano', 'Marconi', 'dustman', 15)
-UNION
-VALUES ('MRLRSN70D70L424O', 'Mirella', 'Ursini', 'keeper', 1)
-UNION
-VALUES ('JCPHTS83P02F356X', 'Jacopo', 'Hortis', 'keeper', 5)
-UNION
-VALUES ('RCHRLT94R26L424S', 'Richard', 'Revoltella', 'keeper', 11)
-UNION
-VALUES ('FRBMLN92B42L483Q', 'Francesca', 'Milani', 'keeper', 7)
-UNION
-VALUES ('GRGTRN89R12L424E', 'Giorgio', 'Torino', 'keeper', 1)
-UNION
-VALUES ('SBLTMS81P62L424H', 'Isabella', 'Tommasi', 'keeper', 15);
 
 -- immagini salvate in base64 come binary large object (BLOB)
 

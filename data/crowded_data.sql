@@ -207,4 +207,4 @@ VALUES ('sunday', 'crowded', 'crowded', 'uncrowded', 13)
 UNION
 VALUES ('sunday', 'crowded', 'crowded', 'crowded', 14)
 UNION
-VALUES ('sunday', 'crowded', 'crowded', 'very crowded', 15)
+VALUES ('sunday', 'crowded', 'crowded', 'very crowded', 15);

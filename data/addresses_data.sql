@@ -27,4 +27,4 @@ VALUES (13, 'Viale al Cacciatore', NULL, 34128, 'Trieste', 'TS')
 UNION 
 VALUES (14, 'Via dei Baiardi' , '35', 34134, 'Trieste', 'TS')
 UNION 
-VALUES (15, 'Viale della Rimembranza', NULL, 34131, 'Trieste', 'TS')
+VALUES (15, 'Viale della Rimembranza', NULL, 34131, 'Trieste', 'TS');
