@@ -89,3 +89,17 @@ INNER JOIN informations AS i
 ON p.park_id = i.park_id
 -- nel caso in cui si volesse un parco specifico
 -- WHERE p.park_id = 1
+
+
+
+-- ricollocare un dipendente causa cancellazione parco in cui lavorava (Ex. )
+BEGIN TRANSACTION;
+    UPDATE staff
+    SET works_at = 12
+    WHERE id = 5;
+
+    DELETE FROM parks
+    WHERE park_id = 12;
+
+COMMIT;
+ROLLBACK;
